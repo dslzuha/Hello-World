@@ -5,3 +5,12 @@ jobs:
     docker:
       - image: circleci/<language>:<version TAG>
     parallelism: 4
+dependencies:
+  pre:
+    - gem install package_cloud
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - package_cloud push dslzuha/bddslpkt/os/version /path/to/pkg.ext
