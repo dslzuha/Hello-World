@@ -1,0 +1,19 @@
+version: 1.0.{build}
+
+image: Ubuntu
+
+nuget:
+
+  account_feed: true
+
+  project_feed: true
+
+notifications:
+
+- provider: GitHubPullRequest
+
+  on_build_success: true
+
+  on_build_failure: false
+
+  on_build_status_changed: false
