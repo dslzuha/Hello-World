@@ -3,6 +3,8 @@
 ## Status Badge
 ![CI](https://github.com/dslzuha/Hello-World/workflows/CI/badge.svg)
 
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/dslzuhasnap)
+
 You can use the [editor on GitHub](https://github.com/dslzuha/Hello-World/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
